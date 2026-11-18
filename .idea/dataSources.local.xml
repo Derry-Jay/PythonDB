@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="PY-263.7307.206">
+    <data-source name="@localhost" uuid="0b6e1635-eaec-4a5d-8d0c-cd8a86ccc38f">
+      <database-info product="MySQL" version="8.0.46" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-26.7.0 (Revision: 559f62df01d4f618440da174ff45ba87f7b3b2a8)" dbms="MYSQL" exact-version="8.0.46" exact-driver-version="26.7">
+        <extra-name-characters>$</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="information_schema" />
+            <name qname="mysql" />
+            <name qname="performance_schema" />
+            <name qname="sakila" />
+            <name qname="sys" />
+            <name qname="world" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>
