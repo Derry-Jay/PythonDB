@@ -1,7 +1,9 @@
 from pymysql import Connection
+
 class Continents:
     def __init__(self, cn: Connection):
         self.dc = cn
+
     def put(self):
         try:
             db = self.dc.cursor()

@@ -1,6 +1,5 @@
 from pymysql import Connection
 
-
 class GovernmentForms:
     def __init__(self, cn: Connection):
         self.dc = cn
